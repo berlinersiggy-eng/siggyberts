@@ -1,0 +1,29 @@
+[
+  {
+    "id": "buchbuendel",
+    "name": "Peter-Pencil-Buchbündel",
+    "beschreibung": "Malbuch-Bündel rund um Peter Pencil.",
+    "zielgruppe": "Kinder und Familien",
+    "preis": null,
+    "link": "TODO: Amazon-Link eintragen",
+    "status": "verkaufen"
+  },
+  {
+    "id": "living-set",
+    "name": "Living Set (Ledig-Home-Starter-Kit)",
+    "beschreibung": "Set aus Wohn-Accessoires für alleinlebende Männer.",
+    "zielgruppe": "Alleinlebende Männer, Gaming-Szene",
+    "preis": null,
+    "link": "TODO: Shop-Link eintragen",
+    "status": "verkaufen"
+  },
+  {
+    "id": "getraenk",
+    "name": "Likör (Spezi-Prinzip)",
+    "beschreibung": "Likör nach dem Spezi-Prinzip, noch in Entwicklung.",
+    "zielgruppe": "Erwachsene",
+    "preis": null,
+    "link": "",
+    "status": "nicht_verkaufen"
+  }
+]
