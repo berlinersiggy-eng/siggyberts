@@ -30,3 +30,13 @@ Das Token steht **nicht** in diesem Repository. Es liegt nur bei Vercel in der V
 npm install
 MCP_TOKEN=einpasswort node server.mjs --http
 ```
+
+## Prompt caching demo
+
+`examples/prompt-caching.mjs` sends two requests sharing a large system prompt with
+top-level `cache_control: { type: "ephemeral" }` and prints cache usage. The first call
+should show `cache_write > 0`, the second `cache_read > 0`.
+
+```bash
+ANTHROPIC_API_KEY=... npm run demo:caching
+```
