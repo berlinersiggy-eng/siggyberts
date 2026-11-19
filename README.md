@@ -24,7 +24,16 @@ Die Produkte stehen in `products.json`. Dort Name, Beschreibung, Preis, Link und
 
 Das Token steht **nicht** in diesem Repository. Es liegt nur bei Vercel in der Variable `MCP_TOKEN`. Ohne gesetztes Token lehnt der Server jede Anfrage ab. Niemals Tokens oder API-Keys in eine Datei hier schreiben.
 
-## Lokal starten
+## Web-Oberfläche
+
+Die Next.js-Begleitseite zeigt den Produktkatalog und bindet Vercel Speed Insights ein.
+
+```
+npm install
+npm run dev
+```
+
+## MCP-Server lokal starten
 
 ```
 npm install

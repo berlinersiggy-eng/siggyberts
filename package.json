@@ -4,11 +4,23 @@
   "type": "module",
   "main": "server.mjs",
   "scripts": {
+    "dev": "next dev -p 3000",
+    "build": "next build",
     "start": "node server.mjs",
-    "start:http": "node server.mjs --http"
+    "start:http": "node server.mjs --http",
+    "start:web": "next start -p 3000"
   },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.0.0",
+    "@vercel/speed-insights": "^2.1.0",
+    "next": "^16.4.6",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
     "zod": "^3.23.0"
+  },
+  "devDependencies": {
+    "@types/node": "26.6.6",
+    "@types/react": "19.3.0",
+    "typescript": "7.0.2"
   }
 }
